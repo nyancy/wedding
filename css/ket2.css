@@ -1,0 +1,40 @@
+* {
+	scroll-behavior: smooth;
+}
+
+#fh5co-header {
+	/* The image used */
+	background-image: url("../img/album1.jpg");
+	height: 100vh;
+	/* Center and scale the image nicely */
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paralax-acara {
+	/* The image used */
+	background-image: url("../img/album2.png");
+	height: 100vh;
+	/* Center and scale the image nicely */
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.float {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 95px;
+	right: 20px;
+	background-color: #304058;
+	opacity: 0.5;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 9px;
+	z-index: 1;
+}
